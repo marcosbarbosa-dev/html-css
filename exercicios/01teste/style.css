@@ -1,0 +1,25 @@
+@charset "UTF-8";
+
+header {
+    width: 100%;
+    height: 250px;
+    background-image: linear-gradient(to top, #09b1ff, #036ea0);
+    background-attachment: fixed;
+}
+nav {
+    width: 100%;
+    height: 40px;
+    background-image: linear-gradient(to bottom, #b3b3b3, #eeeeee);
+    margin: -25px 0px 0px 0px;
+}
+li {
+    display: inline-block;
+    padding: 10px;
+    margin: 0px;
+}
+main {
+    width: 100%;
+    height: 800px;
+    margin: 0px;
+    background-color: #c2c2c2;
+}

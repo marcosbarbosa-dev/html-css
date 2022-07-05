@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" media="screen and (max-width: 480px)" href="mobile.css">
+    <title>Mídias</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <a href="index.html"><li>HOME</li></a>
+                <a href="media.html"><li>MÍDIAS</li></a>
+                <a href="videos.html"><li>VÍDEOS</li></a>
+                <a href="cores.html"><li>CORES</li></a>
+                <a href="tipografia.html"><li>TIPOGRAFIA</li></a>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <a href="pag_interna/modulo_1.html"><p style="text-align: right;">voltar ao módulo</p></a>
+    <h1>Imagem dinâmica</h1>
+    <p>Tente abrir esse site em vários dispositivios diferentes ou simplesmente aumente e diminua o tamanho do seu naegador.</p>
+    <picture>
+        <source media="(max-width: 750px)" srcset="imagens/foto-p.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="imagens/foto-m.png" type="image/png">
+        <img src="imagens/foto-g.png" alt="Imagem flexível">
+    </picture>
+    <h1>Reproduzindo áudio</h1>
+    <p>Vamos aprender a reproduzir áudio em HTML5</p>
+
+    <audio preload="metadata" autoplay controls loop>
+        <source src="media/musica.mp3" type="audio/mpeg">
+        <source src="media/musica.ogg" type="audio/ogg">
+        <source src="media/musica.wav" type="audio/wav">
+        <p>infelizmente o seu navegador não conseguiu reproduzir o áudio. <a href="media/musica.mp3"> Clique aqui para baixar o arquivo</a></p>
+    </audio>
+    <!--mp3 wav ogg-->
+    <h2>Download media.html</h2>
+    <a href="zip/media.rar" target="_blank "media.rar" type="application/rar"><p style="text-align: center;">download</p></a>
+	<a href="pag_interna/modulo_1.html"><p style="text-align: center;">voltar ao módulo</p></a>
+</main>
+</body>
+</html>
