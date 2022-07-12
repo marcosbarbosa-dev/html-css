@@ -47,24 +47,38 @@ a:hover {
 }
 section {
     font-family: var(--font3);
-    font-size: 2vw;
     padding-top: 10vh;
     padding-bottom: 10vh;
     padding-left: 30px;
     line-height: 2em;
 }
 .imagem {
+    background-attachment: fixed;
+    background-position: right center;
+    background-size: cover;
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.479);
     background-color: rgb(51, 51, 51);
     color: #fff;
 }
+section#img01 {
+    background-image: url(../imagens/background001.jpg);
+}
+section#img02 {
+    background-image: url(../imagens/background002.jpg);
+}
+section > p {
+    padding-bottom: 2em;
+}
 .imagem > p {
     padding: 5px;
+    text-shadow: 1px 1px 0px black;
     display: inline-block;
-    background-color: rgba(0, 0, 0, 0.253);
+    background-color: rgba(0, 0, 0, 0.575);
 }
 footer {
     background-color: black;
     text-align: center;
     color: white;
-    padding: 0 10px;
+    padding: 10px;
+    font-size: .7em;
 }
